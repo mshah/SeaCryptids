@@ -1,0 +1,154 @@
+{
+  "bounds": [
+    -180,
+    -85.05112877980659,
+    180,
+    85.05112877980659
+  ],
+  "center": [
+    0,
+    0,
+    2
+  ],
+  "format": "png",
+  "interactivity": {
+    "layer": "docker",
+    "template_teaser": "{{{Sea Monster}}}, {{{Location}}} "
+  },
+  "minzoom": 0,
+  "maxzoom": 22,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "id": "countries",
+      "name": "countries",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "geometry": "polygon",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
+        "type": "shape"
+      }
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -155.264006,
+        -32.70224,
+        148.881908,
+        72.581913
+      ],
+      "id": "seacreatures",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\shahme\\Documents\\Cryptids.csv"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "seacreatures"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -122.391495,
+        37.782068,
+        -122.391495,
+        37.782068
+      ],
+      "id": "octocat",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\shahme\\Documents\\Octocat.csv"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "octocat"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -122.41697599999999,
+        37.7766,
+        -122.41697599999999,
+        37.7766
+      ],
+      "id": "failwhale",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\shahme\\Documents\\Failwhale.csv"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "failwhale"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -178.326408,
+        20.918719,
+        -65.765975,
+        54.208151
+      ],
+      "id": "awois_wrecks",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\shahme\\Documents\\MapBox\\project\\AWOIS_Wrecks.csv"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "awois_wrecks",
+      "status": "off"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -178.049635,
+        -64.7808992,
+        173.30398,
+        70.3858306
+      ],
+      "id": "enc_wrecks",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\shahme\\Documents\\MapBox\\project\\ENC_Wrecks.csv",
+        "id": "enc_wrecks",
+        "project": "Cryptids",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "enc_wrecks",
+      "status": "off"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -122.400602,
+        37.791842,
+        -122.400602,
+        37.791842
+      ],
+      "id": "docker",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\shahme\\Documents\\Docker.csv"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "docker"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "name": "",
+  "description": "",
+  "legend": "Sea Monsters"
+}
